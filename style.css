@@ -1,0 +1,42 @@
+body {
+    background-color: #b2e9ff; 
+}
+
+.content {
+    display: flex; 
+    margin: 20px; 
+}
+
+.content-left {
+    background-color: #66d2f6; 
+    margin-right: 20px; 
+    padding: 20px; 
+    border-radius: 10px; 
+    flex: 1;
+}
+
+.content-right {
+    background-color: #66d2f6; 
+    padding: 20px; 
+    border-radius: 10px; 
+    flex: 0 0 300px; 
+}
+
+h1, h2 {
+    color: #2a2d65; 
+    font-size: 24px; 
+}
+
+p, ul, ol {
+    font-size: 16px; 
+    color: #4e0c90; 
+}
+
+a {
+    color: #6363ff; 
+}
+
+.photo {
+    width: 150px; 
+    height: auto; 
+}
